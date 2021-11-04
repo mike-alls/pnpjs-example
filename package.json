@@ -5,16 +5,16 @@
   "main": "index.js",
   "scripts": {
     "start": "tsc -p . && node dist/index.js",
+    "nick": "ts-node -T ./app/test.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "MIT",
-  "type": "module",
   "dependencies": {
-    "@pnp/common": "^2.10.0",
+    "@pnp/nodejs": "^2.10.0",
     "@pnp/nodejs-commonjs": "^2.10.0",
-    "@pnp/sp": "^2.10.0",
-    "@pnp/sp-commonjs": "^2.10.0"
+    "@pnp/sp-commonjs": "^2.10.0",
+    "ts-node": "^10.4.0"
   },
   "devDependencies": {
     "typescript": "^4.4.4"
