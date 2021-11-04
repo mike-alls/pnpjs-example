@@ -1,5 +1,5 @@
-//import { sp } from "@pnp/sp";
-import sp = require("@pnp/sp");
+import { sp } from "@pnp/sp";
+//import sp = require("@pnp/sp");
 import "@pnp/sp";
 import "@pnp/sp/webs";
 import "@pnp/sp/folders";
