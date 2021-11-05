@@ -1,18 +1,20 @@
 {
-    "compilerOptions": {
-        "module": "commonjs",
-        "target": "esnext",
-        "moduleResolution": "node",
-        "declaration": true,
-        "outDir": "dist",
-        "skipLibCheck": true,
-        "sourceMap": true,
-        "lib": [
-            "dom",
-            "esnext"
-        ]
-    },
-    "files": [
-        "./index.ts"
-    ]
+  "compileOnSave": true,
+  "compilerOptions": {
+    "target": "es2015",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "removeComments": false,
+    "noImplicitReturns": true,
+    "noImplicitAny": false,
+    "preserveConstEnums": true,
+    "skipLibCheck": true
+  },
+  "exclude": [
+    "logs",
+    "node_modules",
+    "sandbox",
+    "test"
+  ]
 }
